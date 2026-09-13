@@ -4,6 +4,9 @@ provider "aws" {
 resource "aws_s3_bucket" "owaisdevsecops" {
   bucket = "owaisdevsecops"
 }
+resource "aws_s3_bucket" "owaisdevsecops" {
+  bucket = "owaisdevsecops"
+}
 terraform {
   backend "s3" {
     # Replace this with your bucket name!
